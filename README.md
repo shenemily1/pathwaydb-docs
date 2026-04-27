@@ -1,22 +1,19 @@
-# pathwaydb-docs
-Documentation on the several pathway databases used in molecular biology and genetics research, including those in mSigDB, as well as additional databases beyond it.
-
 ## Pathway database documentation
  
-A living reference for evaluating biological pathway databases and enrichment methods. The goal is to document each resource consistently enough to make informed decisions about which database(s) to use for a given analysis.
- 
+An ongoing reference list of biological pathway databases used in molecular biology and genetics research, including mSigDB databases and others. This resource is intended to provide information on the selection, comparison, and usage of pathway databases for various analyses.
+
 ## What's in this repo
- 
+
 ```
-pathway-db-docs/
-├── README.md               ← you are here
-├── comparison-table.md     ← master comparison table across all databases
-├── databases/              ← extended notes per database (add as needed)
+pathwaydb-docs/
+├── README.md            
+├── comparison-table.md     ← comparison table across all current documented databases
+├── databases/              ← extended notes per database
 │   ├── reactome.md
 │   ├── kegg.md
 │   ├── wikipathways.md
 │   └── ...
-└── methods/                ← notes on computational/footprint-based approaches
+└── methods/                ← notes on computational/footprint-based approaches (not created)
     ├── gsea-based.md
     └── network-based.md
 ```
@@ -35,15 +32,7 @@ pathway-db-docs/
 | NCI-PID | Signaling (largely in Reactome now) | 🔲 Not started |
 | PROGENy | Footprint-based (computational) | 🔲 Not started |
 | DoRothEA | TF regulon-based (computational) | 🔲 Not started |
- 
-## How to contribute
- 
-1. Pick a database marked **Not started** or **In progress**
-2. Fill in the relevant rows in `comparison-table.md`
-3. Optionally add a `databases/<name>.md` file for extended notes
-4. Cite your sources — prefer the database's own NAR or primary paper, plus the version/release you checked
-5. Add your name and date to the row you filled in via the **Notes** column
-When in doubt, leave a cell blank or mark it `?` rather than guessing. Unknown is more useful than wrong.
+
  
 ## Key references
  
