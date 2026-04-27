@@ -2,7 +2,7 @@
  
 An ongoing reference list of biological pathway databases used in molecular biology and genetics research, including mSigDB databases and others. This resource is intended to provide information on the selection, comparison, and usage of pathway databases for various analyses.
 
-## What's in this repo
+## Repository Structure
 
 ```
 pathwaydb-docs/
